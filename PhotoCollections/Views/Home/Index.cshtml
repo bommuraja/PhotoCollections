@@ -1,31 +1,115 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    Layout = null;
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!doctype html>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.js"></script>
+    <style type="text/css">
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border:0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        /*#SareeTable td {
+            height: 219px;
+            background-color: brown;
+        }*/
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //CSS Part
+            $('img').css('height', $('body').height() / 3);
+            $('#SareeTable td').css('height', $('body').height() / 3);
+        //    $('#pictureTable').after('<div id="nav"></div>');
+        //    var rowsShown = 10;
+        //    var rowsTotal = $('#pictureTable tbody tr').length;
+        //    var numPages = rowsTotal / rowsShown;
+
+        //    var listTags = '';
+        //    for (i = 0; i < numPages; i++) {
+        //        var pageNum = i + 1;
+        //        listTags = listTags + '<li class="page-item"><a href="#" class="page-link" rel="' + i + '">' + pageNum + '</a></li> ';
+        //    }
+        //    var ulTagStart = '<ul class="pagination pagination-lg pull-right">' + listTags + '</ul>';
+
+            //$('#nav').append(ulTagStart);
+         
+
+          
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <table id="SareeTable">
+        <thead>
+
+        </thead>
+        <tbody id="pictureTableTb">
+            <tr id="pictureTableTr">
+                <td id="pictureTableTd">
+                    <img data-toggle="modal" data-target="#DataEntryOperatorModal" src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43059906_107891810188985_4486212461589954560_n.jpg?_nc_cat=111&oh=3c1bff034b92a629fc6684fc4fdfff32&oe=5C1B3B75" alt="Girl in a jacket">
+                </td>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43159187_107892736855559_8408500415909330944_n.jpg?_nc_cat=109&oh=527dd45d964bd92212652febf1d83c44&oe=5C4E0E6C" alt="Girl in a jacket">
+
+                </td>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43063128_107894940188672_3461070906963525632_n.jpg?_nc_cat=110&oh=44cf7e47e953ed57ae0056f65610e8e9&oe=5C58A94E" alt="Girl in a jacket">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43120773_107895046855328_2839186473163423744_n.jpg?_nc_cat=110&oh=973664938427bd368fae2c13d0ebb14f&oe=5C5C8A75" alt="Girl in a jacket">
+
+                </td>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43051427_107895236855309_6300630685799415808_n.jpg?_nc_cat=102&oh=b0eb0aea7c7c22f559b7072c6e3d192b&oe=5C527690" alt="Girl in a jacket">
+
+
+                </td>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43239860_107895420188624_6374406198036267008_n.jpg?_nc_cat=103&oh=4e09ab7e0e1da35b4a860d759c8cb224&oe=5C5D5A33" alt="Girl in a jacket">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43134409_107897170188449_5124827330606268416_n.jpg?_nc_cat=100&oh=9bc22e2eafc2bd399bfd361129fdd854&oe=5C4F7FB0" alt="Girl in a jacket">
+
+                </td>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43159187_107892736855559_8408500415909330944_n.jpg?_nc_cat=109&oh=527dd45d964bd92212652febf1d83c44&oe=5C4E0E6C" alt="Girl in a jacket">
+
+                </td>
+                <td>
+                    <img src="https://scontent.fcjb1-1.fna.fbcdn.net/v/t1.0-9/43063128_107894940188672_3461070906963525632_n.jpg?_nc_cat=110&oh=44cf7e47e953ed57ae0056f65610e8e9&oe=5C58A94E" alt="Girl in a jacket">
+
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
